@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-__author__ = 'Florian'
+__author__ = 'Who ?'
 
 import pandas as pd
 import numpy as np
 
 # Load Data
 userHeader = ['user_id', 'gender', 'age', 'ocupation', 'zip']
-users = pd.read_csv('/users.txt', engine='python',
+users = pd.read_csv('dataSet/users.txt', engine='python',
                     sep='::', header=None, names=userHeader, encoding='ISO-8859-1')
 
 movieHeader = ['movie_id', 'title', 'genders']
